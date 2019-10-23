@@ -1,0 +1,85 @@
+body {
+	padding-top: 5rem;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.starter-template {
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+}
+
+@font-face {
+	font-family: 'Billabong';
+	src: url('../fonts/Billabong.ttf');
+}
+
+.logo {
+	font-family: 'Billabong';
+	font-size: 3rem;
+}
+
+/* Custom dropdown */
+
+.cmg-dropdown {
+	position: relative;
+	cursor: pointer;
+}
+.cmg-dropdown-input {
+	display: none;
+}
+.cmg-dropdown-menu {
+	position: absolute;
+	top: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0;
+	margin: 2px 0 0 -3rem;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	list-style-type: none;
+}
+.cmg-dropdown-input + .cmg-dropdown-menu {
+	display: none;
+}
+.cmg-dropdown-input:checked + .cmg-dropdown-menu {
+	display: block;
+}
+.cmg-dropdown-menu li {
+	padding: 10px 20px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.cmg-dropdown-menu li a {
+	display: block;
+	margin: -10px -20px;
+	padding: 10px 20px;
+}
+
+/* Custom Modal */
+.modal {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
+}
+.closemodal:hover,
+.closemodal:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Footer  */
+
+footer #footer-logo {
+	width: 20px;
+	height: 20px;
+	min-height: 100%;
+	filter: grayscale(100%);
+}
+.copyright {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
