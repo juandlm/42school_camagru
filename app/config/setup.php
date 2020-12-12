@@ -100,7 +100,7 @@ body{
 <?php
 $br = "<br/>";
 
-require_once("./database.php");
+require_once("database.php");
 
 echo "Begin of installation - Camagru - " . date('Y-m-d H:i:s') . $br . $br;
 
