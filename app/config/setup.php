@@ -100,9 +100,7 @@ body{
 <?php
 $br = "<br/>";
 
-define("ROOT", dirname(__FILE__) . '/');
-define("APP", ROOT . "app" . '/');
-require_once(APP . "config/database.php");
+require_once("./database.php");
 
 echo "Begin of installation - Camagru - " . date('Y-m-d H:i:s') . $br . $br;
 
@@ -758,7 +756,7 @@ $new_file .= "		setcookie('auth', '', time() - 3600, null, null, false, true);" 
 $new_file .= "}" . PHP_EOL;
 $new_file .= "" . PHP_EOL;
 $new_file .= "define(\"ROOT\", dirname(__FILE__) . '/');" . PHP_EOL;
-$new_file .= "define(\"APP\", ROOT . \"app\" . '/');" . PHP_EOL;
+$new_file .= "define(\"APP\", ROOT . \"app/\");" . PHP_EOL;
 $new_file .= "" . PHP_EOL;
 $new_file .= "require (APP . \"Core/Autoloader.php\");" . PHP_EOL;
 $new_file .= "new Camagru\Core\Autoloader();" . PHP_EOL;
