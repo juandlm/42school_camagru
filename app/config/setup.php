@@ -100,6 +100,8 @@ body{
 <?php
 $br = "<br/>";
 
+require_once(APP . "config/database.php");
+
 echo "Begin of installation - Camagru - " . date('Y-m-d H:i:s') . $br . $br;
 
 //////////////////////////////////////////////////////////////////
@@ -108,7 +110,7 @@ echo "Begin of installation - Camagru - " . date('Y-m-d H:i:s') . $br . $br;
 //
 //////////////////////////////////////////////////////////////////
 
-$srv = new PDO("mysql:host=mysql;charset=utf8mb4", "root", "rootpass");
+$srv = new PDO($DB_DSN, $DB_USER, $DB_PASSWORD);
 
 
 //////////////////////////////////////////////////////////////////
