@@ -106,7 +106,7 @@
 	</main>
 	<footer class="navbar fixed-bottom navbar-dark bg-dark">
 		<span class="navbar-text copyright">
-		<img alt="footer logo" id="footer-logo" class="mx-2" src="<?= URL; ?>public/img/logo.svg">Camagru © 2019<span class="mx-2">-</span><a href="mailto:jde-la-m@student.le-101.fr">Juan De la Mata</a>
+		<img alt="footer logo" id="footer-logo" class="mx-2" src="<?= URL; ?>public/img/logo.svg">Camagru © 2019<span class="mx-2">-</span><a href="https://juan.digital">Juan De la Mata</a>
 		</span>
 	</footer>
 </body>
