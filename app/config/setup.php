@@ -100,6 +100,8 @@ body{
 <?php
 $br = "<br/>";
 
+define("ROOT", dirname(__FILE__) . '/');
+define("APP", ROOT . "app" . '/');
 require_once(APP . "config/database.php");
 
 echo "Begin of installation - Camagru - " . date('Y-m-d H:i:s') . $br . $br;
