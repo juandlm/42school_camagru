@@ -1,3 +1,5 @@
 app/config/config.php
 app/config/database.php
 error_log
+public/img/userupload
+public/img/userupload/*
